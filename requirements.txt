@@ -1,0 +1,48 @@
+# Data manipulation and analysis
+pandas==1.3.5
+numpy==1.21.5
+
+# Machine Learning
+scikit-learn==0.24.2
+xgboost==1.5.0
+lightgbm==3.3.2
+catboost==1.0.6
+optuna==2.10.0
+
+# Deep Learning (for GPU support)
+tensorflow==2.7.0
+
+# Data fetching and async operations
+requests==2.26.0
+aiohttp==3.8.1
+
+# Data persistence
+joblib==1.1.0
+
+# Configuration
+pyyaml==6.0
+
+# GUI
+tkinter  # Usually comes pre-installed with Python
+tkcalendar==1.6.1
+
+# Logging and warnings
+logging  # Part of Python's standard library
+
+# Date and time operations
+datetime  # Part of Python's standard library
+
+# Testing
+unittest  # Part of Python's standard library
+
+# Performance monitoring
+psutil==5.8.0
+
+# Visualization (optional, for future enhancements)
+matplotlib==3.5.1
+seaborn==0.11.2
+
+# Development tools (optional)
+black==21.12b0  # Code formatter
+flake8==4.0.1   # Linter
+mypy==0.931     # Static type checker
