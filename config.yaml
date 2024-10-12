@@ -1,0 +1,53 @@
+# API Configuration
+api_key: "YOUR_API_KEY_HERE"
+
+# Competitions to fetch data for
+competitions:
+  - PL    # English Premier League
+  - BL1   # German Bundesliga
+  - SA    # Italian Serie A
+  - PD    # Spanish La Liga
+  - FL1   # French Ligue 1
+
+# Model Configuration
+model_params:
+  xgboost:
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 100
+  lightgbm:
+    num_leaves: 31
+    learning_rate: 0.05
+    n_estimators: 100
+  catboost:
+    depth: 6
+    learning_rate: 0.1
+    iterations: 100
+
+# Data Processing
+feature_engineering:
+  rolling_window_size: 5
+  recent_form_window: 3
+
+# GUI Configuration
+gui:
+  window_size: "1200x600"
+  theme: "clam"
+  title: "Football Match Predictions ⚽ Over/Under 2.5 Goals"
+
+# Logging Configuration
+logging:
+  level: INFO
+  file: "football_predictor.log"
+
+# Performance
+num_cores: -1  # Use all available cores
+
+# GPU Configuration
+use_gpu: true  # Set to false if you don't want to use GPU even if available
+
+# Hyperparameter Optimization
+optuna_trials: 50  # Number of trials for Optuna hyperparameter optimization
+
+# Model Persistence
+model_file: "models.joblib"
