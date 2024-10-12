@@ -4,8 +4,6 @@
 
 Football Predictor is an advanced machine learning application that predicts whether a football (soccer) match will have over or under 2.5 goals. It uses data from various top European leagues, employs ensemble learning techniques, and provides a user-friendly GUI for interaction.
 
-![Football Predictor Screenshot](screenshot.png)
-
 ## Features
 
 - **Data Fetching**: Asynchronously fetches match data from the football-data.org API.
